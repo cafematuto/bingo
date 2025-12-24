@@ -1,4 +1,4 @@
-const nomesJogadores={1:"Funcionário 1",2:"Funcionário 2",3:"Funcionário 3",4:"Funcionário 4",5:"Funcionário 5",6:"Funcionário 6",7:"Funcionário 7",8:"Funcionário 8",9:"Funcionário 9",10:"Funcionário 10",11:"Funcionário 11",12:"Funcionário 12"};
+const nomesJogadores={1:"JANE",2:"TATIANA",3:"ANA PAULA",4:"ROSANGELA",5:"ALBA",6:"BEATRIZ",7:"GITHANA",8:"ANA PAULA SG",9:"RAFAEL",10:"PEDRO",11:"MADALENA",12:"NATHALY"};
 let numeros=[...Array(75).keys()].map(n=>n+1);
 let sorteados=JSON.parse(localStorage.getItem("sorteados"))||[];
 
